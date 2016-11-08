@@ -732,6 +732,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .site-logo-text a {
   text-decoration: none;
 }
+.logo-1 {
+  width: 50%;
+}
 /** --------------------------------------------------------------
  *  Logo images
  */
@@ -743,11 +746,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .site-logo-text-icon img {
   vertical-align: bottom;
 }
+.site-logo-text {
+  margin-bottom: 10px;
+}
 /** --------------------------------------------------------------
  *  Responsive design
  */
 img {
   max-width: 100%;
+  border-radius: 10px;
 }
 @media screen and (max-width: 900px) {
   .site-logo-text {
