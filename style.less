@@ -14,58 +14,48 @@
 
 @maxButtonFontSize: 2em;
 
-// Style navbar
-.rm-desktop li {
-    background-color: white;
-}
-
-@navbarItemBgColor: #F2F2F2;
-
-
-// Size each item in the header
-.site-logo-text,
-.navbar2,
-.profile {
-    float: left;
-    width: 30%;
-}
-
-.site-header {
-    height: 80px;
-}
-
 // Site title
 .site-logo-text {
     font-size: 2em;
-
+    margin: 10px;
     a {
         text-decoration: none;
     }
 }
 
-.logo-1 {
-    width: 50%;
-}
+/** --------------------------------------------------------------
+ *  main
+ */
 
+.main {
+    margin: 20px 0;
+}
 
 /** --------------------------------------------------------------
- *  Logo images
+ *  byline
  */
-.logo-1 {
-    position: absolute;
-    top: 70px;
-    left: -140px;
-}
 
-.site-logo-text-icon {
+.after-main {
     img {
-        vertical-align: bottom;
+        float: right;
     }
+    p {
+        margin-top: 40px;
+    }
+    border: 3px solid #F2F2F2;
+    overflow: auto;
+    padding: 10px;
+    margin: 20px 0;
 }
 
-.site-logo-text {
-    margin-bottom: 10px;
+/** --------------------------------------------------------------
+ *  Footer
+ */
+
+.footer {
+    text-align: center;
 }
+
 
 /** --------------------------------------------------------------
  *  Responsive design
@@ -92,7 +82,6 @@ img {
 
 @media screen and (max-width: 750px) {
     .sidebar {
-        //width: 100%;
         display: none;
     }
 }
@@ -105,10 +94,7 @@ img {
 }
 
 
-@media screen and (max-width: 560px) {
-     .site-logo-text {
-         width: 90%;
-     }
+@media screen and (max-width: 940px) {
 
      .navbar2 {
          display: none;
