@@ -1008,6 +1008,21 @@ body hr:after {
   margin-left: 1.04166667%;
   margin-right: 1.04166667%;
 }
+.article img {
+  display: inline;
+  float: left;
+  width: 97.91666667%;
+  margin-left: 1.04166667%;
+  margin-right: 1.04166667%;
+  margin: 20px 0;
+}
+.article .cubes {
+  display: inline;
+  float: left;
+  width: 97.91666667%;
+  margin-left: 1.04166667%;
+  margin-right: 1.04166667%;
+}
 .after-main p {
   display: inline;
   float: left;
@@ -1401,8 +1416,8 @@ body {
   background-color: #fff;
 }
 /** --------------------------------------------------------------
- *  Header
- */
+*  Header
+*/
 .rm-max .rm-small .rm-button {
   font-size: 2em;
 }
@@ -1414,16 +1429,153 @@ body {
   text-decoration: none;
 }
 /** --------------------------------------------------------------
- *  main
- */
+*  main
+*/
 .main {
   margin: 20px 0;
 }
+article {
+  overflow: auto;
+}
+.flash-wrap img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#site {
+  border: 1px solid #F2F2F2;
+}
+.cubes div {
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.part1,
+.part2,
+.part3,
+.part4 {
+  width: 50px;
+  height: 50px;
+}
 /** --------------------------------------------------------------
- *  byline
- */
+*  Apple
+*/
+.apple .part1 {
+  background-color: #313131;
+}
+.apple .part2 {
+  background-color: #F2F2F2;
+}
+.apple .part3 {
+  background-color: #FFFFFF;
+}
+.apple .part4 {
+  background-color: #00B6C4;
+}
+/** --------------------------------------------------------------
+*  SVT
+*/
+.svt .part1 {
+  background-color: #0B0C0D;
+}
+.svt .part2 {
+  background-color: #222326;
+}
+.svt .part3 {
+  background-color: #FFFFFF;
+}
+.svt .part4 {
+  background-color: #4AB835;
+}
+/** --------------------------------------------------------------
+*  Klarna
+*/
+.klarna .part1 {
+  background-color: #00416A;
+}
+.klarna .part2 {
+  background-color: #005DA0;
+}
+.klarna .part3 {
+  background-color: #0074C8;
+}
+.klarna .part4 {
+  background-color: #FFFFFF;
+}
+/** --------------------------------------------------------------
+*  Zalando
+*/
+.zalando .part1 {
+  background-color: #F3F3F3;
+}
+.zalando .part2 {
+  background-color: #FFFFFF;
+}
+.zalando .part3 {
+  background-color: #FF6900;
+}
+/** --------------------------------------------------------------
+*  Base
+*/
+.base .part1 {
+  background-color: #000000;
+}
+.base .part2 {
+  background-color: #FFFFFF;
+}
+.base .part3 {
+  background-color: #F2F2F2;
+}
+.base .part4 {
+  background-color: #41633C;
+}
+/** --------------------------------------------------------------
+*  Light
+*/
+.svt .part1 {
+  background-color: #0B0C0D;
+}
+.svt .part2 {
+  background-color: #222326;
+}
+.svt .part3 {
+  background-color: #FFFFFF;
+}
+.svt .part4 {
+  background-color: #4AB835;
+}
+/** --------------------------------------------------------------
+*  Colorful
+*/
+.klarna .part1 {
+  background-color: #00416A;
+}
+.klarna .part2 {
+  background-color: #005DA0;
+}
+.klarna .part3 {
+  background-color: #0074C8;
+}
+.klarna .part4 {
+  background-color: #FFFFFF;
+}
+/** --------------------------------------------------------------
+*  Dark
+*/
+.zalando .part1 {
+  background-color: #F3F3F3;
+}
+.zalando .part2 {
+  background-color: #FFFFFF;
+}
+.zalando .part3 {
+  background-color: #FF6900;
+}
+/** --------------------------------------------------------------
+*  byline
+*/
 .after-main {
-  border: 3px solid #F2F2F2;
+  border: 2px solid #F2F2F2;
   overflow: auto;
   padding: 10px;
   margin: 20px 0;
@@ -1435,14 +1587,16 @@ body {
   margin-top: 40px;
 }
 /** --------------------------------------------------------------
- *  Footer
- */
+*  Footer
+*/
 .footer {
   text-align: center;
+  border-top: 2px solid #F2F2F2;
+  margin-top: 50px;
 }
 /** --------------------------------------------------------------
- *  Responsive design
- */
+*  Responsive design
+*/
 img {
   max-width: 100%;
   border-radius: 10px;
