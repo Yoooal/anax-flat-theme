@@ -8,6 +8,18 @@ img {
     border-radius: 10px;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    align-items: center;
+}
+
 /** --------------------------------------------------------------
 *  Header
 */
@@ -61,6 +73,14 @@ article {
 .part1, .part2, .part3, .part4, .part5 {
     width: 50px;
     height: 50px;
+}
+
+.route-blogg .main img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.next {
+    float: right;
 }
 
 /** --------------------------------------------------------------
@@ -261,12 +281,37 @@ article {
 *  Footer
 */
 
+
 .inner-wrap-footer {
-    padding: 10px;
     background-color: #F2F2F2;
     text-align: center;
-    border-top: 2px solid grey;
     margin-top: 50px;
+}
+
+.outer-wrap-footer {
+    background-color: #F2F2F2;
+    border-top: 3px solid grey;
+}
+
+/** --------------------------------------------------------------
+* Notice, warning and error
+*/
+
+@infoColor: #205791;
+@infoBackgroundColor: #d5edf8;
+@infoBorderColor: #92cae4;
+
+@warningColor: #3f3f0e;
+@warningBackgroundColor: #ededab;
+@warningBorderColor: #d1d12e;
+
+.info {
+    background-color: #d5edf8;
+    border: 2px solid #92cae4;
+    padding: 10px;
+    .fa-circle {
+        color: #205791;
+    }
 }
 
 
